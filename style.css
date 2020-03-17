@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.btn_main {
+    background-color: #7fb802;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn_main.login {
+    background-color: #0d325a;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+header {
+    height: 500px;
+    background-color: #0d325a;
+}
+
+.header-top {
+    height: 100px;
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+#logo-container {
+    float: left;
+    width: 15%;
+}
+
+#logo-container a img{
+    margin-top: 25px;
+}
+
+#main-menu-container {
+    float: left;
+    width: 45%;
+    line-height: 100px;
+}
+
+#main-menu-container ul {
+    list-style-type: none;
+}
+
+#main-menu-container ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0 5px;
+}
+
+#main-menu-container ul li:hover {
+    color: orange;
+}
+
+#cta-container {
+    float:left;
+    width: 40%;
+    text-align: right;
+}
+
+#cta-container ul {
+    list-style-type: none;
+}
+
+#cta-container ul li {
+    display: inline-block;
+    line-height: 100px;
+    margin-left: 10px;
+}
+
+#cta-container ul li a {
+    color: grey;
+    text-decoration: none;
+}
+
+#cta-container ul li:nth-child(2) .btnmain{}
+
+
+.header-bottom {
+    height: 400px;
+        background-image: url("img/business-men.png");
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+}
+
+#jumbo-wrapper {
+    width: 50%;
+
+}
+
+#jumbo-wrapper h1 {
+    padding-top: 80px;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+#jumbo-wrapper .btn_main {
+    padding: 15px 20px;
+}
+
+main {
+    height: 1000px;
+}
+
+footer {
+    height: 400px;
+    background-color: #17406b;
+}
