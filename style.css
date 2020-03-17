@@ -217,6 +217,44 @@ main {
     width: 180px;
 }
 
+#lection-onetoone {
+    height: 400px;
+    background-color: #0d325a;
+}
+
+#lection-onetoone .container {
+    background-image: url("img/lection.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 100%;
+}
+
+#lection-onetoone .container div {
+    width: 40%;
+}
+
+#lection-onetoone .container div h5{
+    color: white;
+    font-size: 25px;
+    padding-top: 80px;
+    margin-bottom: 30px
+}
+
+#lection-onetoone .container div h5 span {
+    color: orange;
+}
+
+#lection-onetoone .container div p {
+    color: lightgrey;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#lection-onetoone .container div p a {
+    color: lightblue;
+}
+
 footer {
     height: 400px;
     background-color: #17406b;
