@@ -259,3 +259,55 @@ footer {
     height: 400px;
     background-color: #17406b;
 }
+
+#menu-footer {
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin-top: 40px;
+}
+
+#menu-footer ul{
+    list-style-type: none;
+}
+
+#menu-footer ul p {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+#menu-footer ul li {
+    padding: 10px 0px;
+}
+
+#menu-footer ul li a {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+#menu-footer ul li:hover a {
+    text-decoration: underline;
+}
+
+#company-info {
+    float: right;
+    width: 50%;
+    margin-top: 40px;
+    text-align: right;
+    color: lightgrey;
+    line-height: 35px;
+}
+
+#company-info p:nth-child(1) {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#company-info p:nth-child(2) {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
