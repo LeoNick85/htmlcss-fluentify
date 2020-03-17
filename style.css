@@ -119,6 +119,43 @@ main {
     height: 1000px;
 }
 
+#course-detail {
+    text-align: center;
+}
+
+#course-detail h2 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+#course-detail h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #7fb802;
+}
+
+#course-detail p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: grey;
+}
+
+.detail-description::after {
+    content: "";
+    clear: both;
+     display: block;
+}
+.detail-item {
+    float: left;
+    width: 33.32%;
+    padding: 0 10px;
+}
+
+.detail-item img {
+ width: 40%;
+ margin-bottom: 15px;
+}
+
 footer {
     height: 400px;
     background-color: #17406b;
