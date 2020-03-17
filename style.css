@@ -116,7 +116,7 @@ header {
 }
 
 main {
-    height: 1000px;
+    /* height: 1500px; */
 }
 
 #course-detail {
@@ -140,11 +140,17 @@ main {
     color: grey;
 }
 
+#course-detail hr {
+    display: inline-block;
+    width: 15%;
+}
+
 .detail-description::after {
     content: "";
     clear: both;
-     display: block;
+    display: block;
 }
+
 .detail-item {
     float: left;
     width: 33.32%;
@@ -154,6 +160,61 @@ main {
 .detail-item img {
  width: 40%;
  margin-bottom: 15px;
+}
+
+#placement-test {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-image: url("img/mountain.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+}
+
+#placement-test div {
+    width: 35%;
+    float: right;
+}
+
+#placement-test h4 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    line-height: 45px;
+    font-size: 35px;
+}
+
+#placement-test p {
+    margin-bottom: 25px;
+}
+
+#placement-test a {
+    color: lightblue;
+}
+
+#plan-section {
+    height: 100px;
+}
+
+#plan-section span {
+    line-height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#plan-request {
+    line-height: 100px;
+    float: right;
+}
+
+#plan-request label {
+    color: grey;
+    font-size: 28px;
+    padding-right: 30px;
+}
+
+#plan-request select {
+    height: 30px;
+    width: 180px;
 }
 
 footer {
